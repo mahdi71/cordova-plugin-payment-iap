@@ -28,7 +28,7 @@
 	    </config-file>
 	    
 		<config-file target="AndroidManifest.xml" parent="/manifest">
-			<uses-permission android:name="com.android.vending.BILLING" />
+			<uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
         </config-file>		
 		
 	    <source-file src="src/android/IAP.java" target-dir="src/jp/wizcorp/phonegap/plugin/wizPurchase"/>
